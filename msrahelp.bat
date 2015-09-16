@@ -82,7 +82,8 @@ if "%adchoice%"=="1" msra /expert
 if "%adchoice%"=="2" goto choOpenFile
 if "%adchoice%"=="3" goto choExit
 if "%adchoice%"=="4" goto start
-
+cls
+goto Admin
 :choOpenFile
 cls
 ECHO What Is The Password To The Help File:
