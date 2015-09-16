@@ -29,7 +29,7 @@ goto Start1
 cls
 ECHO Please Read Carefully:
 ECHO Enable "Allow Remote Assitance To This Computer"
-ECHO Enable Allow Connections From Computers Running Any Version Of Remote Desktop" 
+ECHO Enable "Allow Connections From Computers Running Any Version Of Remote Desktop" 
 ECHO -
 ECHO The Window Will Open Shortly, Close It When You Are Finished Please.
 ECHO -
