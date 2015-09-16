@@ -50,9 +50,11 @@ ECHO -
 ECHO Please Wait About 10 Seconds For The File To Be Created
 ECHO It Will Be On Your Desktop
 ECHO It Will Be Named InvitationForHelp
+ECHO You May Be Asked To Replace The File, Please Chose Yes
 ECHO -
-ECHO When The Client Is Closed, This CMD Prompt Will Ask If You Have Finished
-start explorer "%userprofile%\Desktop\%
+ECHO When The Client Is Closed, This CMD Prompt Will Ask If You Have Finised
+PING 1.1.1.1 -n 1 -w 2000 >NUL
+start explorer "%userprofile%\Desktop\"
 PING 1.1.1.1 -n 1 -w 5000 >NUL
 cls
 ECHO When The Client Is Closed, This CMD Prompt Will Ask If You Have Finished
